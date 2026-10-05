@@ -2,9 +2,17 @@
   "name": "daily-work-tracker-v2",
   "version": "2.0.0",
   "private": true,
+  "bin": "server.js",
   "scripts": {
     "dev": "node server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build:exe": "pkg . --targets node18-win-x64 --output dist/work-list.exe"
+  },
+  "pkg": {
+    "assets": [
+      "public/**/*",
+      "views/**/*"
+    ]
   },
   "dependencies": {
     "express": "^5.1.0"
