@@ -1,1 +1,5 @@
 /dist/data/
+data/
+
+# บังคับไม่ให้ ignore ไฟล์ .exe ในโฟลเดอร์ dist
+!/dist/*.exe
