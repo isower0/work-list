@@ -62,6 +62,13 @@ app.patch("/api/tasks/:id", (q, r) => {
   if (i < 0) return r.sendStatus(404);
   if (["todo", "doing", "testing", "done"].includes(q.body.status))
     a[i].status = q.body.status;
+  if (typeof q.body.name === "string") {
+    let n = q.body.name.trim();
+    if (n) a[i].name = n;
+  }
+  if (typeof q.body.detail === "string") {
+    a[i].detail = q.body.detail.trim();
+  }
   write(a);
   r.json(a[i]);
 });
@@ -69,6 +76,16 @@ app.patch("/api/tasks/:id", (q, r) => {
 app.delete("/api/tasks/:id", (q, r) => {
   write(read().filter((x) => x.id !== q.params.id));
   r.sendStatus(204);
+});
+
+// ลบงานหลายรายการพร้อมกัน
+app.post("/api/tasks/bulk-delete", (q, r) => {
+  let ids = Array.isArray(q.body.ids) ? q.body.ids : [];
+  if (!ids.length) return r.status(400).json({ error: "ids required" });
+  let before = read();
+  let after = before.filter((x) => !ids.includes(x.id));
+  write(after);
+  r.json({ deleted: before.length - after.length });
 });
 
 app.get("/api/backup", (_, r) =>

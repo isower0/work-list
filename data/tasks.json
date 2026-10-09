@@ -1,9 +1,153 @@
 [
   {
+    "id": "446d7ea5-0874-40d8-b4d1-6968c6e94190",
+    "name": "Report Fee",
+    "detail": "ขยายขนาด col",
+    "status": "doing",
+    "date": "2026-10-09",
+    "createdAt": "2026-10-09T11:23:42.718Z"
+  },
+  {
+    "id": "9f77732d-667d-4445-8e74-73d8bc9177d0",
+    "name": "barcode Ref Main Sub",
+    "detail": "ปุ่มอ้างอิง บาร์โค๊ด  ถ้ามาแบบ ไม่มีใบรอง ไม่ต้องแสดงปุ่ม",
+    "status": "testing",
+    "date": "2026-10-09",
+    "createdAt": "2026-10-09T07:45:16.335Z"
+  },
+  {
+    "id": "0d4e0a1d-9c5f-4e94-8efa-11d1c8cb8001",
+    "name": "barcode Ref Main Sub",
+    "detail": "เพิ่ม item name กับ ผู้จัดจำหน่าย",
+    "status": "testing",
+    "date": "2026-10-09",
+    "createdAt": "2026-10-09T07:39:24.822Z"
+  },
+  {
+    "id": "918f9df0-8153-45bf-a2f8-f25aaa662f26",
+    "name": "List Labal ของ Multi Lang",
+    "detail": "",
+    "status": "doing",
+    "date": "2026-10-09",
+    "createdAt": "2026-10-09T05:12:01.518Z"
+  },
+  {
+    "id": "b77aebd6-7de8-4029-b053-315e822b50a7",
+    "name": "Hist ของ Gen 4.6",
+    "detail": "Generated และ Generating เป็นการ update",
+    "status": "testing",
+    "date": "2026-10-09",
+    "createdAt": "2026-10-09T03:38:32.306Z"
+  },
+  {
+    "id": "573a79d1-b059-413f-a6c8-5b4873b2ed15",
+    "name": "Email Update Status QA",
+    "detail": "ชื่อ สินค้า อยู่ คอลัม PMA สลับ คอลัมน์กันอยู่",
+    "status": "testing",
+    "date": "2026-10-09",
+    "createdAt": "2026-10-09T03:38:02.487Z"
+  },
+  {
+    "id": "21a12b8d-16f0-49ba-b0ef-a76119da80e9",
+    "name": "Cubi Scan",
+    "detail": "เมื่อ scan เจอให้ลง hist ไว้",
+    "status": "testing",
+    "date": "2026-10-09",
+    "createdAt": "2026-10-09T03:36:59.105Z"
+  },
+  {
+    "id": "e80dcd66-a2f0-420c-b0bc-5dc06fb9fba9",
+    "name": "Email Multi",
+    "detail": "เจอว่าพอส่งลิงค์ edit แล้วมันได้ role ไม่ถูก",
+    "status": "doing",
+    "date": "2026-10-07",
+    "createdAt": "2026-10-07T05:10:08.070Z"
+  },
+  {
+    "id": "c690914b-02a2-48d8-8258-50f652e43854",
+    "name": "Order Status By Store",
+    "detail": "",
+    "status": "todo",
+    "date": "2026-10-07",
+    "createdAt": "2026-10-07T05:04:20.742Z"
+  },
+  {
+    "id": "4b48dfdf-2f32-4a31-b2f0-18843398d19b",
+    "name": "barcode Ref Main Sub",
+    "detail": "เพิ่ม check all",
+    "status": "done",
+    "date": "2026-10-07",
+    "createdAt": "2026-10-07T04:46:32.216Z"
+  },
+  {
+    "id": "839b6274-b0d6-41ba-90ee-98c9572bd9a9",
+    "name": "Barcode",
+    "detail": "เจอว่าเลือกซ้ำได้",
+    "status": "done",
+    "date": "2026-10-06",
+    "createdAt": "2026-10-06T09:23:15.502Z"
+  },
+  {
+    "id": "bd95b1fa-d255-4b03-a6e0-3af6712a9197",
+    "name": "Worklist",
+    "detail": "ปิด internal ไม่ให้เห็นใบรองเลย",
+    "status": "done",
+    "date": "2026-10-06",
+    "createdAt": "2026-10-06T07:30:27.365Z"
+  },
+  {
+    "id": "e005d024-e6de-41b4-9513-d65c6c2ed1b5",
+    "name": "Upload Media",
+    "detail": "ใบหลักได้รูปจากใบรองไม่ครบ",
+    "status": "done",
+    "date": "2026-10-06",
+    "createdAt": "2026-10-06T04:28:20.364Z"
+  },
+  {
+    "id": "d0ddddf5-237f-4ff7-b666-0362b81bb5d8",
+    "name": "Coding & Unit Testing - การรับชำระ และการติดตามหนี้",
+    "detail": "",
+    "status": "todo",
+    "date": "2026-10-06",
+    "createdAt": "2026-10-06T02:06:55.537Z"
+  },
+  {
+    "id": "9430e86d-7b3e-45f1-830f-84ca104b5d32",
+    "name": "Coding & Unit Testing - การยกเลิกสัญญาเช่าช่วง/สัญญาบริการ",
+    "detail": "",
+    "status": "doing",
+    "date": "2026-10-06",
+    "createdAt": "2026-10-06T02:06:47.714Z"
+  },
+  {
+    "id": "842b3ea6-685b-43f0-969f-87611c0ec612",
+    "name": "Coding & Unit Testing - การแก้ไขสัญญาเช่าช่วง/สัญญาบริการ",
+    "detail": "",
+    "status": "todo",
+    "date": "2026-10-06",
+    "createdAt": "2026-10-06T02:06:37.805Z"
+  },
+  {
+    "id": "6481af5d-a9ea-4e48-b01e-e89feb19dd6f",
+    "name": "Status \"9999999999999999999999909\" หน้า Worklist  Role Pur ไม่สามารถ กด Edit ได้ ต้อง Disable ,Copy Disable",
+    "detail": "",
+    "status": "done",
+    "date": "2026-10-06",
+    "createdAt": "2026-10-06T01:59:08.530Z"
+  },
+  {
+    "id": "6b6386e7-e621-4368-9f17-135ddafa5233",
+    "name": "กด Confirm Cancel",
+    "detail": "ติด error not a single group function",
+    "status": "done",
+    "date": "2026-10-06",
+    "createdAt": "2026-10-06T01:58:57.146Z"
+  },
+  {
     "id": "51ccf4bd-473b-4d7a-9910-4938bccbb59a",
     "name": "ตาราง Product selection Result",
     "detail": "แสดงค่าไม่ถูกต้องมันแสดงค่าซ้ำ ดูที่ใบ 2463",
-    "status": "testing",
+    "status": "done",
     "date": "2026-10-05",
     "createdAt": "2026-10-05T12:05:05.122Z"
   },
@@ -11,7 +155,7 @@
     "id": "7b71145b-2f99-4ee6-8e2e-d9c43fbe7d89",
     "name": "ตัวเลือกใบรอง C2 ส่งตรง",
     "detail": "อยากให้ปรับข้อความและขนาดช่องของใบรอง C2 ส่งตรงให้เหมือนกับของเข้าคลังหน่อยครับ ใบรอง C2 - เข้าคลัง",
-    "status": "testing",
+    "status": "done",
     "date": "2026-10-05",
     "createdAt": "2026-10-05T12:04:10.016Z"
   },
@@ -19,7 +163,7 @@
     "id": "83805f36-6579-4568-b49a-618d17930403",
     "name": "แจ้งเตือน Barcode",
     "detail": "Error แจ้งเตือน Barcode ซ้ำ สองอันนี้ มีความงงๆอยู่ครับ ตอนนั้นพวกเราทำอะไรกันนั้น ทำไมแจ้งเตือนเป็นคำนี้กัน Bacode Type P กับ Type C",
-    "status": "todo",
+    "status": "done",
     "date": "2026-10-05",
     "createdAt": "2026-10-05T12:03:41.688Z"
   },
@@ -27,7 +171,7 @@
     "id": "890c348f-36c9-4204-b54d-a23d140ddc80",
     "name": "ใบหลัก ใบรอง Modal อ้างอิง Barcode",
     "detail": "ในช่อง Dropdown List มีช่องที่วงสีแดงเป็นค่าว่างครับ พี่ไปสืบมาแล้ว สันนิฐานว่า ที่ช่องว่างๆมันจะเป็นช่องของใบรองอันนึงที่ไม่ได้ระบุ Barcode ใดๆลงไปสักอันครับ เลยทำให้ไม่มีเลข IPREPAR_CODE ติดมาด้วย แล้วพอกดช่องว่างๆไปก็ไม่มีอะไรเกิดขึ้นครับ แต่อีกสองใบงานปกติดีครับ ทำงานได้ถูกต้อง Proposer กรอกอะไรมาก็แสดงตามนั้น",
-    "status": "todo",
+    "status": "done",
     "date": "2026-10-05",
     "createdAt": "2026-10-05T12:03:20.570Z"
   },
@@ -35,7 +179,7 @@
     "id": "a087e872-d56b-4f0b-acb1-0308016d4a9e",
     "name": "Upload Media",
     "detail": "เจอว่าเวลาเปลี่ยน type จากรูปไปวิดิโอมันไม่เปลี่ยน type",
-    "status": "todo",
+    "status": "done",
     "date": "2026-10-05",
     "createdAt": "2026-10-05T12:03:00.710Z"
   },
@@ -43,7 +187,7 @@
     "id": "e019bf06-e6b3-43a9-b3f3-9605eca51c8e",
     "name": "Upload Media",
     "detail": "อัพโหลดรูปไป มันไปเซฟทับของ Media Type อื่นๆที่อัพโหลดไปก่อนหน้าอ่ะครับ ปกติไม่เป็นนะ จุกสังเกตคือ ชื่อไฟล์ที่มันได้ชื่อซ้ำครับ",
-    "status": "todo",
+    "status": "done",
     "date": "2026-10-05",
     "createdAt": "2026-10-05T12:02:19.615Z"
   },
@@ -51,7 +195,7 @@
     "id": "3c3602a7-c4da-430a-8651-6ac17f9c1148",
     "name": "เพิ่ม history กรณีเป็นใบรองใน 4.3 to 44",
     "detail": "หากใบรองกด submit ให้ข้ามไปจบเอกสารและใส่ history ประมาณว่าจบเอกสารใบรอง",
-    "status": "testing",
+    "status": "done",
     "date": "2026-10-02",
     "createdAt": "2026-10-02T02:55:31.048Z"
   },
@@ -59,7 +203,7 @@
     "id": "f3857243-66f2-4d71-9aeb-75687610e069",
     "name": "เพิ่ม history กรณีเป็นใบรองใน page2",
     "detail": "หากใบรองกด submit ให้ข้ามไปจบเอกสารและใส่ history ประมาณว่าจบเอกสารใบรอง",
-    "status": "testing",
+    "status": "done",
     "date": "2026-10-02",
     "createdAt": "2026-10-02T02:55:12.842Z"
   },
@@ -67,7 +211,7 @@
     "id": "bcd10b77-af17-4f6f-8fcd-59b562893d29",
     "name": "convert log 4.6",
     "detail": "",
-    "status": "testing",
+    "status": "done",
     "date": "2026-10-02",
     "createdAt": "2026-10-02T02:46:17.412Z"
   },
@@ -75,7 +219,7 @@
     "id": "d3d6130a-45dc-4243-a5c3-55d4a9f14c84",
     "name": "แก้ 4.3 to 4.4",
     "detail": "ตอนที่เป็น ref แบบ item ให้ update item id ที่ IPREPAR_ITEM",
-    "status": "testing",
+    "status": "done",
     "date": "2026-10-02",
     "createdAt": "2026-10-02T02:44:30.687Z"
   },
@@ -83,7 +227,7 @@
     "id": "8ea6533c-e323-42af-a813-90be804e4e25",
     "name": "แก้ API ยิงสร้าง user external",
     "detail": "",
-    "status": "todo",
+    "status": "doing",
     "date": "2026-10-02",
     "createdAt": "2026-10-02T02:33:10.337Z"
   },
@@ -91,7 +235,7 @@
     "id": "26155d18-167b-4c1a-ab7e-5f0b1f1c001e",
     "name": "หัวตารางเพิ่มให้ส่วนของการบอกว่าใบน้ีเป็นใบหลักรอง",
     "detail": "",
-    "status": "testing",
+    "status": "done",
     "date": "2026-10-02",
     "createdAt": "2026-10-02T02:32:31.861Z"
   },
@@ -99,7 +243,7 @@
     "id": "b49252c6-037d-46c7-873e-a2c071d7fc6e",
     "name": "cost ใบหลักรองเพิ่ม cv code ให้ set all ได้",
     "detail": "",
-    "status": "todo",
+    "status": "done",
     "date": "2026-10-02",
     "createdAt": "2026-10-02T02:31:00.461Z"
   },
@@ -107,7 +251,7 @@
     "id": "c1887be9-bce2-4c48-ba8b-22ded0ac8c6c",
     "name": "ปรับข้อมูลราคาต้นทุน (Cost) - ข้อมูลที่ผ่านการนำเสนอคัดเลือกสินค้า Section",
     "detail": "- CV Code ใบรอง  flag ใบหลัก ใบรอง Iprepar Code รหัสใบงานหลัก (Iprepar Code : ชื่อสินค้า internal Iprepar_internal_name) ผู้จำหน่าย  หลังบ้านเก็บ SUP ID , SUP Dept ID",
-    "status": "testing",
+    "status": "done",
     "date": "2026-10-02",
     "createdAt": "2026-10-02T02:29:46.087Z"
   }
